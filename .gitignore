@@ -1,0 +1,12 @@
+# Ignore virtual environment
+env/
+
+# Ignore IDE files
+.vscode/
+__pycache__/
+
+sqldiff.exe
+sqlite3_analyzer.exe
+try.py 
+Dockerfile
+reference.txt
