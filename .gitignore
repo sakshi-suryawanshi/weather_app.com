@@ -9,4 +9,5 @@ sqldiff.exe
 sqlite3_analyzer.exe
 try.py 
 Dockerfile
-reference.txt
+references.txt
+instance/weather_app.db
