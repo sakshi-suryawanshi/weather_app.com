@@ -1,0 +1,16 @@
+{
+    "framework": "flask",
+    "command": "flask run",
+    "builds":[
+        {
+            "src":"weather_app.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes": [
+        {"src":"/(.*)","dest":"./weather_app.py"}
+    ]
+}
+
+
+
