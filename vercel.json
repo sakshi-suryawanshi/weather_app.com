@@ -1,6 +1,5 @@
 {
     "framework": "flask",
-    "command": "flask run",
     "builds":[
         {
             "src":"weather_app.py",
