@@ -11,3 +11,5 @@ try.py
 Dockerfile
 references.txt
 instance/weather_app.db
+weather_app.db
+.env
