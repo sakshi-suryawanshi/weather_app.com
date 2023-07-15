@@ -5,9 +5,12 @@ from flask_sqlalchemy import SQLAlchemy
 import os
 
 app = Flask(__name__,static_url_path='',static_folder='web/static',template_folder='web/templates')
-API_KEY = os.environ["API_KEY"]
-SECRET_KEY = os.environ['SECRET_KEY']
-SQLALCHEMY_DATABASE_URI = os.environ["SQLALCHEMY_DATABASE_URI"]
+# API_KEY = os.environ["API_KEY"]
+API_KEY = '821a57a442fea07f0f86320ad18b4b69'
+# SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'thisisweathersecret'
+SQLALCHEMY_DATABASE_URI = 'postgresql://weather_app_user:EPMtyQUk2lbHXL4BBvnXRM20CvlaEA0H@dpg-cipbjud9aq0dcportf60-a.oregon-postgres.render.com/weather_app_zst7'
+# SQLALCHEMY_DATABASE_URI = os.environ["DATABASE_URL"]
 app.config["SECRET_KEY"] = SECRET_KEY
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
