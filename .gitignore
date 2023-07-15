@@ -7,6 +7,7 @@ __pycache__/
 
 sqldiff.exe
 sqlite3_analyzer.exe
+sqlite3.exe
 try.py 
 Dockerfile
 references.txt
